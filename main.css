@@ -1,0 +1,177 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+@font-face {
+    font-family: BebasBook;
+    src: url(fonts/BebasNeue/BebasNeue-Book.otf);
+}
+@font-face {
+    font-family: DejaVuSansCon;
+    src: url(fonts/DejaVuSans/DejaVuSansCondensed.ttf);
+}
+@font-face {
+    font-family: DejaVuSans-Light;
+    src: url(fonts/DejaVuSans/DejaVuSans-ExtraLight.ttf);
+}
+
+
+#header {
+    width: 100%;
+    height: 60px;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: stretch;
+}
+#header #nav_logo {
+    height: 60px;
+    border-right: 1px solid #fff;
+}
+#header #nav_logo span {
+    font: 68px BebasBook, Tahoma, sans-serif;
+    line-height: 60px;
+    color: #fff;
+}
+#header #nav_logo span:nth-of-type(4){
+    color: red;
+}
+#header #nav_logo a {
+    padding: 40px 50px 3px 30px;
+}
+#header #nav_logo a:hover {
+    background: #777;
+}
+#header #nav_manu {
+    height: 60px;
+}
+#header #nav_manu .nav-menu {
+    height: 60px;
+    list-style: none;
+}
+#header li.nav-menu-item {
+    font: 20px DejaVuSans-Light, Tahoma, sans-serif;
+/*    height: 60px;*/
+    padding: 20px 0px 16px 0px;
+    float: left;
+}
+#header li.nav-menu-item a {
+    color: #fff;
+    padding: 20px 20px 14px 20px;
+}
+#header li.nav-menu-item a:hover {
+    background: #fff;
+    color: #111;
+}
+#header #nav_login {
+    height: 44px;
+    padding: 16px 0px 0px 0px;
+}
+#header #nav_login a {
+    font: 20px DejaVuSans-Light, Tahoma, sans-serif;
+    color: #fff;
+    padding: 16px 15px 19px 15px;
+}
+#header #nav_login a:hover {
+    background: #fff;
+    color: #111;
+}
+
+
+
+#content {
+    margin: 20px auto;
+    background: #777;
+}
+#content #left_menu {
+    max-width: 350px;
+    background: #555;
+}
+#content .left-menu {
+    max-width: 350px;
+}
+#content .left-menu-item {
+}
+#content .left-menu-item a {
+    color: #fff;
+    font: 16px DejaVuSans-Light, sans-serif;
+}
+#content .left-menu-item a li {
+}
+#content .left-menu-item a a {
+}
+#content .left-menu-item ul {
+}
+#content .left-menu-item ul li {
+}
+#content .left-menu-item ul a {
+}
+#content #items {
+}
+#content .all-items {
+}
+#content .item {
+}
+#content .photo {
+}
+#content .title {
+}
+
+
+
+
+
+
+
+
+
+
+
+form {
+    display: block;
+    margin: 50px auto;
+}
+.data {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+}
+input {
+    height: 35px;
+    width: 265px;
+    margin: 0 auto;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 1px solid #555;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 25px auto;
+}
+input[name="reset"] {
+    width: 200px;
+}
+input[name="send"] {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

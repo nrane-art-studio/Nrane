@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Nrane</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div id="header"></div>
-    <div id="left_menu"></div>
-    <div id="content"></div>
-    <div id="footer"></div>
+    <div id="header">
+        <div id="nav_logo">
+            <a href="">
+                <span>N</span>
+                <span>R</span>
+                <span>A</span>
+                <span>N</span>
+                <span>E</span>
+            </a>
+        </div>
+        <div id="nav_manu">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="">Մեր մասին</a></li>
+                <li class="nav-menu-item"><a href="">Առաջարկվող տեսականի</a></li>
+                <li class="nav-menu-item"><a href="">Պատվիրել</a></li>
+                <li class="nav-menu-item"><a href="">Կապ</a></li>
+                <li class="nav-menu-item"><a href="">ՀՏՀ</a></li>
+            </ul>
+        </div>
+        <div id="nav_login">
+            <a href="">Բաժանորդագրվել</a>
+        </div>
+    </div>
+
+    <div class="forma">
+        <form action="data.php" method="post">
+            <div class="data">
+                <input type="text" name="fname" placeholder="Անուն">
+                <input type="text" name="lname" placeholder="Ազգանուն">
+                <input type="text" name="mail" placeholder="Էլ․ հասցե">
+            </div>
+            <div class="btn">
+                <input type="reset" name="reset" value="Ջնջել տվյալները">
+                <input type="submit" name="send" value="Բաժանորդագրվել">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
